@@ -8,26 +8,20 @@
 }
 
 h1,
-h2,
 h3 {
   justify-content: var(--justify-content);
   justify-content: space-between;
   text-align: center;
 }
 h1 {
-  padding-top: 40px;
+  padding-top: 60px;
   margin-bottom: -60px;
   font-size: 48px;
 }
-h2 {
+#h2 {
   font-size: 96px;
-  margin-bottom: -5px;
 }
 
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
 h3 {
   font-size: 22px;
   opacity: 0.6;
@@ -77,11 +71,6 @@ footer {
 #back_to_homepage:hover {
   text-decoration: none;
 }
-.contact_buttons {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 50px;
-}
 
 #contact_me_button,
 #about_me_button {
@@ -107,4 +96,10 @@ footer {
 }
 #about_me_button:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+#navigation_links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 30px;
 }
