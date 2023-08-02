@@ -12,7 +12,10 @@ h3 {
   justify-content: var(--justify-content);
   justify-content: space-between;
   text-align: center;
+  font-size: 22px;
+  opacity: 0.6;
 }
+
 h1 {
   padding-top: 60px;
   margin-bottom: -60px;
@@ -22,14 +25,12 @@ h1 {
   font-size: 96px;
 }
 
-h3 {
-  font-size: 22px;
-  opacity: 0.6;
-}
 .text-2 {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
+  padding: 50px;
+  height: auto;
 }
 .column-1 {
   padding: 20px;
@@ -102,4 +103,8 @@ footer {
   margin-top: 40px;
   justify-content: center;
   gap: 30px;
+}
+.d-flex {
+  display: block;
+  padding: 200px;
 }
