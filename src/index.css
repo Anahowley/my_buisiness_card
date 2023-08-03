@@ -7,7 +7,6 @@
   --box-shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-h1,
 h3 {
   justify-content: var(--justify-content);
   justify-content: space-between;
@@ -21,6 +20,7 @@ h1 {
   padding-top: 60px;
   margin-bottom: -60px;
   font-size: 48px;
+  text-align: center;
 }
 #h2 {
   font-size: 96px;
@@ -100,7 +100,7 @@ h1 {
   display: flex;
   margin-top: 40px;
   justify-content: center;
-  gap: 30px;
+  gap: 10px;
 }
 .d-flex {
   display: block;
