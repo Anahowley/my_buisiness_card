@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --justify-content: center;
   --text-decoration: none;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 h1,
@@ -87,6 +87,7 @@ footer {
 }
 #contact_me_button:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.3s ease-in-out;
 }
 #about_me_button {
   background: #6c63ff;
@@ -97,6 +98,7 @@ footer {
 }
 #about_me_button:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+  transition: box-shadow 0.3s ease-in-out;
 }
 #navigation_links {
   display: flex;
@@ -107,4 +109,21 @@ footer {
 .d-flex {
   display: block;
   padding: 200px;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+.img-fluid:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
