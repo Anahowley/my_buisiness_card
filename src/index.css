@@ -120,14 +120,17 @@ h1 {
   box-shadow: var(--box-shadow-hover);
 }
 .img-fluid:hover {
-  transition: box-shadow 0.3s ease-in-out;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4) !important;
 }
 #contacts {
   font-size: 40px;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: -40px;
 }
 body {
   padding-bottom: 80px;
+}
+.about-paragraphs {
+  padding: 30px;
 }
