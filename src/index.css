@@ -1,136 +1,217 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --justify-content: center;
-  --text-decoration: none;
-  --box-shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.7);
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
-h3 {
-  justify-content: var(--justify-content);
-  justify-content: space-between;
-  text-align: center;
-  font-size: 22px;
-  opacity: 0.6;
-  padding: 30px;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 h1 {
-  padding-top: 60px;
-  margin-bottom: -60px;
-  font-size: 48px;
-  text-align: center;
-}
-#h2 {
   font-size: 96px;
-}
-
-.text-2 {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
-  padding: 50px;
-  height: auto;
-}
-.column-1 {
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
   line-height: 1.5;
-  text-align: center;
-  background: var(--secondary-color);
 }
-.column-2 {
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
   line-height: 1.5;
-  text-align: center;
-  background: var(--secondary-color);
+  font-size: 24px;
 }
 
-#email {
-  text-decoration: none;
-  color: var(--primary-color);
-  font-size: 20px;
-  display: block;
-  text-align: center;
-}
-#email:hover {
-  text-decoration: underline;
-}
-#back_to_homepage {
-  display: block;
-  text-align: center;
-  color: var(--primary-color);
-}
-#back_to_homepage:hover {
-  text-decoration: none;
+.content-container {
+  padding: 60px 20px;
 }
 
-#contact_me_button,
-#about_me_button {
-  text-decoration: var(--text-decoration);
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
-#contact_me_button {
-  background: white;
-  padding: 20px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  border-radius: 5px;
-  box-shadow: var(--box-shadow);
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
-#contact_me_button:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
-  transition: box-shadow 0.3s ease-in-out;
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
 }
-#about_me_button {
-  background: #6c63ff;
-  padding: 20px;
-  border-radius: 5px;
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
   color: white;
-  box-shadow: var(--box-shadow);
-}
-#about_me_button:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
-  transition: box-shadow 0.3s ease-in-out;
-}
-#navigation_links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-  gap: 10px;
-}
-.d-flex {
-  display: block;
-  padding: 200px;
-}
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
   color: white;
 }
 
-.primary-link:hover {
-  box-shadow: var(--box-shadow-hover);
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
 }
-.img-fluid:hover {
-  transition: box-shadow 0.3s ease-in-out !important;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4) !important;
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
-#contacts {
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: -40px;
+
+.project-desciption {
+  padding: 120px 60px;
 }
-body {
-  padding-bottom: 80px;
+
+.logo {
+  max-height: 40px;
 }
-.about-paragraphs {
-  padding: 30px;
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
 }
