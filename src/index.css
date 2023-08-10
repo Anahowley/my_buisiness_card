@@ -102,23 +102,25 @@ p {
 }
 
 .btn-branding:hover {
-  color: #e0c295;
+  color: #000000;
+  border-color: #e0c295;
 }
 
 .btn-branding-outline {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
-  background-color: #e0c295;
+  background-color: #ddc199;
 }
 
 .btn-branding-outline:hover {
   background: white;
-  color: #e0c295;
+  color: #000000;
+  border-color: #e0c295;
 }
 
 .project-desciption {
@@ -254,5 +256,12 @@ footer .social-links a:hover {
     display: block;
     margin: auto;
     width: 300px;
+  }
+  #logo_small {
+    position: relative;
+    background: url(../images/mylogo.png);
+    width: 150px;
+    max-height: 200px;
+    margin-top: -20px;
   }
 }
