@@ -94,7 +94,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: #e0c295;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
@@ -102,17 +102,18 @@ p {
 }
 
 .btn-branding:hover {
-  color: #ffffff;
+  color: #e0c295;
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
+  color: rgb(255, 255, 255);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
+  background-color: #e0c295;
 }
 
 .btn-branding-outline:hover {
