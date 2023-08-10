@@ -254,9 +254,9 @@ footer .social-links a:hover {
     font-size: 15px;
   }
   .wrap {
-    background: var(--secondary-color);
+    background: #f9f7fd;
     text-align: center;
-    padding: 20px;
+    padding: 80px 20px;
   }
   .btn-branding {
     margin-top: 30px;
