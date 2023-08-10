@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #e0c295;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -28,6 +28,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+#h2 {
+  opacity: 0.6;
+}
 
 h3 {
   font-size: 48px;
@@ -39,20 +42,20 @@ p {
   line-height: 30px;
 }
 
-.hero {
+#hero {
   background: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
 }
 
-.hero p {
+#hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
   color: #272142;
 }
 
-.hero h2 {
+#hero h2 {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.5;
@@ -91,7 +94,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: #e0c295;
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
@@ -99,7 +102,7 @@ p {
 }
 
 .btn-branding:hover {
-  color: white;
+  color: #ffffff;
 }
 
 .btn-branding-outline {
@@ -122,7 +125,11 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  position: relative;
+  background: url(../images/logo.png);
+  width: 200px;
+  max-height: 200px;
+  margin-top: -60px;
 }
 
 nav {
@@ -190,7 +197,9 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-
+.img-fluid {
+  border-radius: 8px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -213,5 +222,36 @@ footer .social-links a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .logo {
+    position: relative;
+    background: url(../images/logo.png);
+    width: 150px;
+    max-height: 150px;
+    margin-top: -65px;
+  }
+  #paragraph {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+  }
+  #email {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .wrap {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+  }
+  .btn-branding {
+    margin-top: 30px;
+  }
+  .img-fluid {
+    display: block;
+    margin: auto;
+    width: 300px;
   }
 }
