@@ -225,6 +225,9 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  #hello {
+    padding-right: 25px;
+  }
 
   .project-desciption {
     padding: 0;
@@ -260,12 +263,5 @@ footer .social-links a:hover {
     display: block;
     margin: auto;
     width: 300px;
-  }
-  #logo_small {
-    position: relative;
-    background: url(../images/mylogo.png);
-    width: 00px;
-    max-height: 200px;
-    margin-top: -20px;
   }
 }
