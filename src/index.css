@@ -238,9 +238,9 @@ footer .social-links a:hover {
     position: relative;
     background: url(../images/logo.png);
     width: 140px;
-    max-height: 160px;
+    max-height: 140px;
     margin-top: -45px;
-    left: 5px;
+    left: 2px;
   }
   #paragraph {
     background: #f9f7fd;
