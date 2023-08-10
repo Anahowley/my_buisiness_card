@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #e0c295;
+  --branding-color: #9082aa;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -94,7 +94,7 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
@@ -102,25 +102,25 @@ p {
 }
 
 .btn-branding:hover {
-  color: #000000;
-  border-color: #e0c295;
+  color: #9082aa;
+  border-color: #9082aa;
 }
 
 .btn-branding-outline {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 249, 249);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   text-decoration: none;
   line-height: 27px;
   padding: 15px 30px;
-  background-color: #ddc199;
+  background-color: #9082aa;
 }
 
 .btn-branding-outline:hover {
   background: white;
-  color: #000000;
-  border-color: #e0c295;
+  color: #9082aa;
+  border-color: #9082aa;
 }
 
 .project-desciption {
@@ -203,6 +203,10 @@ footer .social-links a:hover {
 .img-fluid {
   border-radius: 8px;
 }
+.img-fluid:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: opacity 0.3s ease-in-out;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -260,7 +264,7 @@ footer .social-links a:hover {
   #logo_small {
     position: relative;
     background: url(../images/mylogo.png);
-    width: 150px;
+    width: 00px;
     max-height: 200px;
     margin-top: -20px;
   }
