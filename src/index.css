@@ -117,8 +117,8 @@ p {
 }
 
 .btn-branding-outline:hover {
-  background: var(--branding-color);
-  color: white;
+  background: white;
+  color: #e0c295;
 }
 
 .project-desciption {
