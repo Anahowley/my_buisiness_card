@@ -135,7 +135,9 @@ p {
   margin-top: -50px;
   left: -40px;
 }
-
+#saintp_image {
+  margin-top: 100px;
+}
 nav {
   padding: 20px 0;
 }
@@ -143,13 +145,14 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
+  margin-top: 20px;
 }
 
 nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 15px;
+  margin-left: 40px;
 }
 
 nav a {
@@ -265,9 +268,5 @@ footer .social-links a:hover {
     display: block;
     margin: auto;
     width: 300px;
-  }
-  #contact_me {
-    display: block;
-    margin-left: 130px;
   }
 }
